@@ -15,18 +15,19 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <div className="relative z-0 bg-primary">
+        <div className="relative z-50 bg-primary">
           <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center"></div>
           <Navbar />
           <Hero />
         </div>
         <About />
         <Experience />
-        {/* <Tech /> */}
+        <Tech />
         <Works />
         <Feedbacks />
         <div className="ralative z-0 ">
           <Contact/>
+          <StarsCanvas />
         </div>
       </BrowserRouter>
     </>
