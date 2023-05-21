@@ -20,6 +20,8 @@ import {
   tesla,
   shopify,
   threejs,
+  theescape,
+  vrank
 } from '../assets';
 
 export const navLinks = [
@@ -32,8 +34,8 @@ export const navLinks = [
     title: "Work",
   },
   {
-    id: "contact",
-    title: "Contact",
+    id: "projects",
+    title: "Projects",
   },
 ];
 
@@ -182,7 +184,7 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    // image: vrank,
+    image: vrank,
     source_code_link: "https://github.com/NIZE0000/modern-vrank",
   },
   {
@@ -199,7 +201,7 @@ const projects = [
         color: "orange-text-gradient",
       },
     ],
-    // image: jobit,
+    image: theescape,
     source_code_link: "https://github.com/NIZE0000/TheEscape",
   },
 ];

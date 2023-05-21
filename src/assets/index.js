@@ -26,7 +26,8 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-// import vrank from "./vrank.png";
+import vrank from "./vrank.png";
+import theescape from "./theescape.png";
 
 export {
   logo,
@@ -54,6 +55,6 @@ export {
   shopify,
   starbucks,
   tesla,
-  // vrank,
-  // theescape,
+  vrank,
+  theescape,
 };
