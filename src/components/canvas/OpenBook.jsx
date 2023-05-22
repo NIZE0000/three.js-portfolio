@@ -9,18 +9,26 @@ const OpenBook = () => {
 
   return (
     <mesh>
-      <hemisphereLight intensity={0.15} groundColor={"black"} />
-      <primitive object={book.scene} scale={0.5} />
+      <hemisphereLight intensity={0.4} groundColor={"black"} />
+      {/* <spotLight
+        position={[-20, 50, 10]}
+        angle={0.12}
+        penumbra={1}
+        intensity={1}
+        castShadow
+        shadow-mapSize={512}
+      /> */}
+      <primitive object={book.scene} scale={1} position={[0,-3,0]}/>
     </mesh>
   );
 };
 
 const OpenBookCanvas = () => {
   return (
-    <Canvas
+    <Canvas className="z-0"
       frameloop="demand"
       shadows
-      camera={{ position: [20, 3, 5], fov: 25 }}
+      camera={{ position: [0, 0, 10], fov: 25 }}
       gl={{ preserveDrawingBuffer: true }}
     >
       <Suspense fallback={<CanvasLoader />}>
