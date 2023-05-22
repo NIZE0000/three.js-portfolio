@@ -122,7 +122,7 @@ const experiences = [
   {
     title: "Part-time Programing",
     company_name: "Donuts-BKK",
-    icon: starbucks,
+    icon: null,
     iconBg: "#383E56",
     date: "Jun 2023 - Present",
     points: [
