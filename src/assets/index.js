@@ -28,6 +28,7 @@ import tesla from "./company/tesla.png";
 
 import vrank from "./vrank.png";
 import theescape from "./theescape.png";
+import ai_chat from "./ai_chat.png"
 
 export {
   logo,
@@ -57,4 +58,5 @@ export {
   tesla,
   vrank,
   theescape,
+  ai_chat
 };

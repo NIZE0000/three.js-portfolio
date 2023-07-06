@@ -21,7 +21,8 @@ import {
   shopify,
   threejs,
   theescape,
-  vrank
+  vrank,
+  ai_chat
 } from '../assets';
 
 export const navLinks = [
@@ -186,6 +187,29 @@ const projects = [
     ],
     image: vrank,
     source_code_link: "https://github.com/NIZE0000/modern-vrank",
+  },
+  {
+    name: "Chat with your waifu",
+    description: " an AI chat bot that simulates a conversation with a virtual waifu and run on your local. It is based on the Orca mini fine-tune from LLaMa model.",
+    tags: [{
+      name: "nextjs",
+      color: "black-text-gradient",
+    },
+    {
+      name: "tailwind",
+      color: "pink-text-gradient",
+    },
+    {
+      name: "docker",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "pytorch",
+      color: "orange-text-gradient",
+    },
+    ], 
+    image: ai_chat, 
+    source_code_link: "https://github.com/NIZE0000/chat-with-your-waifu"
   },
   {
     name: "TheEscape",
